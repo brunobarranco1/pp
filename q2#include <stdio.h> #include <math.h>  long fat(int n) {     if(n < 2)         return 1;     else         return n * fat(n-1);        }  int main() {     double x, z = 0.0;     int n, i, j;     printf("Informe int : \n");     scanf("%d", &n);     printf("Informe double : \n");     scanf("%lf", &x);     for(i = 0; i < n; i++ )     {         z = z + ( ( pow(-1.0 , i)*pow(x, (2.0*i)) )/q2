@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+
+long fat(int a) {
+    if(a < 2)
+        return 1;
+    else
+        return a * fat(a-1);   
+    }
+
+int main()
+{
+    double x, b = 0.0;
+    int n, i, j;
+    printf("Informe int : \n");
+    scanf("%d", &n);
+    printf("Informe double : \n");
+    scanf("%lf", &x);
+    for(i = 0; i < a; i++ )
+    {
+        b = b + ( ( pow(-1.0 , i)*pow(x, (2.0*i)) ) / (fat(2*i)) ); 
+
+    }
+        printf("\n\ncos(x) = %lf\n", b );
+    return 0;
+}
